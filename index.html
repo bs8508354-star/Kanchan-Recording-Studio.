@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kanchan Recording Studio | Surat</title>
+
+  <meta name="description" content="Kanchan Recording Studio Surat - Professional Music Recording, Mixing & Mastering Studio">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;900&family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:'Plus Jakarta Sans',sans-serif;
+      background:#050505;
+      color:white;
+      overflow-x:hidden;
+      scroll-behavior:smooth;
+    }
+
+    .luxury-font{
+      font-family:'Cinzel',serif;
+    }
+
+    .gold-text{
+      background:linear-gradient(135deg,#ffe28a,#d4af37,#8b6b00);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+    }
+
+    .glass{
+      background:rgba(255,255,255,0.05);
+      backdrop-filter:blur(12px);
+      border:1px solid rgba(212,175,55,0.15);
+    }
+
+    .gold-btn{
+      background:linear-gradient(90deg,#d4af37,#aa7c11);
+      color:black;
+      transition:.4s;
+    }
+
+    .gold-btn:hover{
+      transform:translateY(-3px);
+      box-shadow:0 0 25px rgba(212,175,55,.4);
+    }
+
+    .hero-bg{
+      background:
+      linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.88)),
+      url('https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
+    }
+
+    .wave{
+      width:4px;
+      border-radius:20px;
+      background:#d4af37;
+      animation:wave 1s infinite alternate;
+    }
+
+    @keyframes wave{
+      from{
+        height:10px;
+      }
+      to{
+        height:50px;
+      }
+    }
+
+    .service-card{
+      transition:.4s;
+    }
+
+    .service-card:hover{
+      transform:translateY(-10px);
+      border-color:#d4af37;
+    }
+
+    .gallery img{
+      transition:.6s;
+    }
+
+    .gallery:hover img{
+      transform:scale(1.1);
+    }
+
+  </style>
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+
+<section class="hero-bg min-h-screen relative px-6 py-10 flex flex-col justify-between">
+
+  <!-- NAVBAR -->
+
+  <div class="max-w-7xl mx-auto w-full flex justify-between items-center">
+
+    <div>
+      <h1 class="luxury-font text-3xl md:text-4xl font-black gold-text">
+        KANCHAN
+      </h1>
+      <p class="text-xs tracking-[0.4em] uppercase text-gray-400">
+        Recording Studio
+      </p>
+    </div>
+
+    <a href="tel:9054846586"
+      class="gold-btn px-6 py-3 rounded-full font-bold text-sm">
+      <i class="fa-solid fa-phone"></i>
+      Call Now
+    </a>
+
+  </div>
+
+  <!-- HERO CONTENT -->
+
+  <div class="max-w-5xl mx-auto text-center py-20">
+
+    <h1 class="luxury-font text-6xl md:text-9xl font-black gold-text leading-none">
+      KANCHAN
+    </h1>
+
+    <h2 class="uppercase tracking-[0.4em] text-lg md:text-3xl mt-5 font-bold">
+      Recording Studio
+    </h2>
+
+    <!-- WAVE -->
+
+    <div class="flex justify-center items-center gap-1 mt-10 mb-8">
+
+      <div class="wave" style="animation-delay:.1s"></div>
+      <div class="wave" style="animation-delay:.4s"></div>
+      <div class="wave" style="animation-delay:.2s"></div>
+      <div class="wave" style="animation-delay:.6s"></div>
+      <div class="wave" style="animation-delay:.3s"></div>
+
+      <p class="mx-4 uppercase tracking-[0.3em] text-[#d4af37] text-xs font-bold">
+        Feel The Music
+      </p>
+
+      <div class="wave" style="animation-delay:.2s"></div>
+      <div class="wave" style="animation-delay:.5s"></div>
+      <div class="wave" style="animation-delay:.1s"></div>
+      <div class="wave" style="animation-delay:.4s"></div>
+      <div class="wave" style="animation-delay:.3s"></div>
+
+    </div>
+
+    <p class="text-gray-300 max-w-2xl mx-auto leading-loose">
+      Professional Music Recording, Mixing & Mastering Studio with cinematic sound quality and premium audio production setup.
+    </p>
+
+    <!-- BUTTONS -->
+
+    <div class="flex flex-col sm:flex-row justify-center gap-5 mt-12">
+
+      <a href="tel:9054846586"
+        class="gold-btn px-10 py-5 rounded-full font-bold uppercase tracking-wider">
+        <i class="fa-solid fa-phone"></i>
+        Call Now
+      </a>
+
+      <a href="https://wa.me/919054846586"
+        class="glass px-10 py-5 rounded-full uppercase tracking-wider font-bold hover:bg-white/10 transition">
+        <i class="fa-brands fa-whatsapp text-[#d4af37]"></i>
+        Book Recording
+      </a>
+
+    </div>
+
+  </div>
+
+  <!-- BOTTOM INFO -->
+
+  <div class="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-5">
+
+    <div class="glass rounded-3xl p-6 flex items-center gap-5">
+
+      <div class="w-14 h-14 rounded-2xl bg-[#d4af37]/10 flex items-center justify-center text-[#d4af37] text-xl">
+        <i class="fa-solid fa-location-dot"></i>
+      </div>
+
+      <div>
+        <p class="uppercase tracking-wider text-xs text-gray-400">
+          Studio Address
+        </p>
+
+        <h3 class="font-bold mt-1">
+          Tundi Gangadhara Palsana, Surat - 394310
+        </h3>
+      </div>
+
+    </div>
+
+    <div class="glass rounded-3xl p-6 flex justify-between items-center">
+
+      <div>
+        <p class="uppercase tracking-wider text-xs text-gray-400">
+          Studio Package
+        </p>
+
+        <h3 class="font-bold mt-1">
+          Recording + Mixing + Mastering
+        </h3>
+      </div>
+
+      <div class="text-right">
+        <h2 class="text-4xl font-black gold-text">
+          ₹3000
+        </h2>
+
+        <p class="uppercase text-xs tracking-wider text-gray-400">
+          Only
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section class="py-24 px-6">
+
+  <div class="max-w-7xl mx-auto">
+
+    <h2 class="luxury-font text-center text-5xl font-black gold-text mb-16">
+      Studio Services
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- CARD -->
+
+      <div class="glass rounded-[30px] p-10 service-card">
+
+        <div class="w-20 h-20 rounded-3xl bg-[#d4af37]/10 flex items-center justify-center text-4xl text-[#d4af37] mb-8">
+          <i class="fa-solid fa-microphone-lines"></i>
+        </div>
+
+        <h3 class="text-2xl font-bold mb-4 uppercase">
+          Music Recording
+        </h3>
+
+        <p class="text-gray-400 leading-loose">
+          High quality vocal and instrument recording with professional microphones.
+        </p>
+
+      </div>
+
+      <!-- CARD -->
+
+      <div class="glass rounded-[30px] p-10 service-card border border-[#d4af37]/30">
+
+        <div class="w-20 h-20 rounded-3xl bg-[#d4af37]/10 flex items-center justify-center text-4xl text-[#d4af37] mb-8">
+          <i class="fa-solid fa-sliders"></i>
+        </div>
+
+        <h3 class="text-2xl font-bold mb-4 uppercase gold-text">
+          Mixing
+        </h3>
+
+        <p class="text-gray-400 leading-loose">
+          Crystal clear mixing, vocal tuning, balancing and cinematic sound processing.
+        </p>
+
+      </div>
+
+      <!-- CARD -->
+
+      <div class="glass rounded-[30px] p-10 service-card">
+
+        <div class="w-20 h-20 rounded-3xl bg-[#d4af37]/10 flex items-center justify-center text-4xl text-[#d4af37] mb-8">
+          <i class="fa-solid fa-compact-disc"></i>
+        </div>
+
+        <h3 class="text-2xl font-bold mb-4 uppercase">
+          Mastering
+        </h3>
+
+        <p class="text-gray-400 leading-loose">
+          Loudness optimization and streaming-ready mastering for all music platforms.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- GALLERY -->
+
+<section class="py-20 px-6">
+
+  <div class="max-w-7xl mx-auto">
+
+    <h2 class="luxury-font text-center text-5xl font-black gold-text mb-16">
+      Studio Gallery
+    </h2>
+
+    <div class="grid md:grid-cols-2 gap-8">
+
+      <!-- IMAGE -->
+
+      <div class="gallery overflow-hidden rounded-[35px] border border-white/10 h-[400px]">
+
+        <img
+          src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1400&auto=format&fit=crop"
+          class="w-full h-full object-cover"
+          alt="Studio">
+
+      </div>
+
+      <!-- IMAGE -->
+
+      <div class="gallery overflow-hidden rounded-[35px] border border-white/10 h-[400px]">
+
+        <img
+          src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=1400&auto=format&fit=crop"
+          class="w-full h-full object-cover"
+          alt="Recording">
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="py-24 px-6">
+
+  <div class="max-w-5xl mx-auto glass rounded-[40px] p-10 md:p-16 text-center">
+
+    <h2 class="luxury-font text-5xl font-black gold-text mb-8">
+      Book Your Recording
+    </h2>
+
+    <p class="text-gray-300 max-w-2xl mx-auto leading-loose">
+      Experience premium recording quality with professional studio equipment and cinematic sound production.
+    </p>
+
+    <div class="flex flex-col md:flex-row justify-center gap-6 mt-12">
+
+      <a href="tel:9054846586"
+        class="gold-btn px-10 py-5 rounded-full uppercase tracking-wider font-bold">
+        <i class="fa-solid fa-phone"></i>
+        9054846586
+      </a>
+
+      <a href="https://wa.me/919054846586"
+        class="glass px-10 py-5 rounded-full uppercase tracking-wider font-bold hover:bg-white/10 transition">
+        <i class="fa-brands fa-whatsapp text-[#d4af37]"></i>
+        WhatsApp Now
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="border-t border-white/10 py-10 px-6 text-center">
+
+  <h2 class="luxury-font text-2xl gold-text">
+    Kanchan Recording Studio
+  </h2>
+
+  <p class="mt-4 text-gray-500 uppercase tracking-[0.3em] text-xs">
+    Surat Gujarat • Professional Music Studio
+  </p>
+
+  <p class="mt-5 text-gray-700 text-xs uppercase tracking-[0.2em]">
+    © 2025 Kanchan Recording Studio. All Rights Reserved.
+  </p>
+
+</footer>
+
+</body>
+</html>
